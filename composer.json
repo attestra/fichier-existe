@@ -1,8 +1,8 @@
 {
-    "name": "attestra/qr-code",
-    "description": "Attestra QR Code",
-    "keywords": ["attestra", "qrcode", "qr", "code", "php"],
-    "homepage": "https://github.com/attestra/qr-code",
+    "name": "attestra/fichier-existe",
+    "description": "Attestra Fichier Existe",
+    "keywords": ["attestra", "fichierexiste", "php"],
+    "homepage": "https://github.com/attestra/fichier-existe",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -13,7 +13,6 @@
     ],
     "require": {
         "php": "^7.4||^8.0",
-        "bacon/bacon-qr-code": "^2.0"
     },
     "require-dev": {
         "ext-gd": "*",
@@ -29,12 +28,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Attestra\\QrCode\\": "src/"
+            "Attestra\\FichierExiste\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Attestra\\QrCode\\Tests\\": "tests/"
+            "Attestra\\FichierExiste\\Tests\\": "tests/"
         }
     },
     "config": {
